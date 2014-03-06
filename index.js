@@ -1,7 +1,9 @@
 var backbone = require('backbone');
 
-// attach jquery to backbone
-var $ = require('jquery')(window);
-backbone.$ = $;
+// if in browser, attach jquery to backbone
+if (typeof window !== 'undefined') {
+  var $ = require('jquery')(window);
+  backbone.$ = $;
+}
 
 module.exports = backbone;
