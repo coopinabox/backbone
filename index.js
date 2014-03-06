@@ -4,6 +4,6 @@ var backbone = require('backbone');
 require('backbone-react-component');
 
 // attach jquery to backbone
-backbone.$ = require('./jquery');
+backbone.$ = require('jquery');
 
 module.exports = backbone;
