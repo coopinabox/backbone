@@ -1,22 +1,22 @@
 {
-  "name": "backbonew",
+  "name": "ciab-backbone",
   "version": "0.0.0",
-  "description": "holonomy wrapper for backbone",
+  "description": "coopinabox wrapper for backbone",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/holonomy/backbonew.git"
+    "url": "git://github.com/coopinabox/backbone.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/holonomy/backbonew/issues"
+    "url": "https://github.com/coopinabox/backbone/issues"
   },
   "dependencies": {
-    "backbone": "*",
-    "jquery": "~2.1.0"
+    "backbone": "^1.1.0",
+    "jquery": "^2.1.0"
   }
 }
