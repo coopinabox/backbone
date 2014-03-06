@@ -1,4 +1,5 @@
-var backbone = require('backbone-react-component');
+var backbone = require('backbone');
+require('backbone-react-component');
 
 // if in browser, attach jquery to backbone
 if (typeof window !== 'undefined') {

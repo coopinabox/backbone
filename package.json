@@ -17,8 +17,11 @@
     "url": "https://github.com/coopinabox/backbone/issues"
   },
   "dependencies": {
-    "backbone-react-component": "^0.5.1",
-    "jquery": "^2.1.0"
+    "jquery": "^2.1.0",
+    "backbone": "^1.1.2",
+    "envify": "^1.2.1",
+    "react": "^0.9.0",
+    "backbone-react-component": "git://github.com/ahdinosaur/backbone-react-component"
   },
   "devDependencies": {
     "npm-release": "0.0.4-3"
