@@ -1,6 +1,6 @@
 {
   "name": "ciab-backbone",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "description": "coopinabox wrapper for backbone",
   "main": "index.js",
   "scripts": {
