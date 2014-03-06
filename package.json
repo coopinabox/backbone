@@ -1,6 +1,6 @@
 {
   "name": "ciab-backbone",
-  "version": "1.1.1",
+  "version": "0.5.0",
   "description": "coopinabox wrapper for backbone",
   "main": "index.js",
   "scripts": {
@@ -17,7 +17,7 @@
     "url": "https://github.com/coopinabox/backbone/issues"
   },
   "dependencies": {
-    "backbone": "^1.1.0",
+    "backbone-react-component": "^0.5.1",
     "jquery": "^2.1.0"
   },
   "devDependencies": {
