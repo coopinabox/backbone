@@ -1,10 +1,9 @@
 var backbone = require('backbone');
+
+// attach backbone react component
 require('backbone-react-component');
 
-// if in browser, attach jquery to backbone
-if (typeof window !== 'undefined') {
-  var $ = require('jquery')(window);
-  backbone.$ = $;
-}
+// attach jquery to backbone
+backbone.$ = require('./jquery');
 
 module.exports = backbone;
